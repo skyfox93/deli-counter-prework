@@ -14,7 +14,7 @@ def now_serving(list)
 end
 def line(list)
   count=0
-  if list.length>0
+  if list.length>0 
     output="The line is currently:"
     list.each do |person|
       count+=1
