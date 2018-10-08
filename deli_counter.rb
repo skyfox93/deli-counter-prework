@@ -7,7 +7,7 @@ end
 
 
 def now_serving(list)
-  if list.length
+  if list.length>=1
    puts "Currently serving #{list.shift}."
     else puts "There is nobody waiting to be served!"
   end
@@ -25,4 +25,4 @@ def line(list)
   puts output
 end
     
-line(katz_deli)
+line([])
